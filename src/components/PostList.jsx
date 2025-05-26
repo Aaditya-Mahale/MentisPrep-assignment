@@ -11,7 +11,6 @@ const PostList = ({ posts }) => {
         <Card key={post.id} sx={{ mb: 2 }}>
           <CardContent>
             <Typography variant="h6">{post.title}</Typography>
-            <Typography variant="h6">{post.id}</Typography>
 
             <Typography variant="body2" color="text.secondary">
               {post.body}
